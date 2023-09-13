@@ -11,6 +11,7 @@
         "base",
     ],
     "data": [
-        #"views/helpdesk_name.xml"
+        "security/it.model.access.csv",
+        "views/helpdesk_menu.xml"
     ],
 }

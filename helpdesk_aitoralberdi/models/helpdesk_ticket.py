@@ -2,6 +2,7 @@ from odoo import models, fields
 
 class HelpdeskTicket(models.Model):
     _name = "helpdesk.ticket"
+    _description = 'Ticket'
 
     name = fields.Char(string='Name')
     text = fields.Text(string='Description')
